@@ -1,0 +1,78 @@
+.header--component--wrapped {
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    padding: 3mm;
+    margin-bottom: 5mm;
+}
+a{
+    text-decoration: none !important;
+}
+
+.quiz--component__score {
+    text-decoration: none !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.component--progress {
+    margin: 2mm 0;
+}
+.header--component--wrapped > .card{
+    display: flex;
+    align-items: center;
+}
+.header--component--wrapped > .card > .card-img-top{
+    width: 20%;
+}
+.form-check > .form-check-label:first-letter{
+    text-transform: capitalize;
+}
+.form-check > .form-check-label{
+    height: 40px;
+    line-height: 40px;
+}
+
+.form-check{
+    border: 1px solid gray;
+    padding-left: 40px;
+    border-radius: 5px;
+    margin-top: 2mm;
+}
+.form-check-input{
+    transform: translateY(70%);
+}
+
+.form-group{
+    height: 262px;
+    margin: 16px 0;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    padding: 0 5mm 5mm 5mm;
+}
+.form-group >legend{
+    text-align: center;
+    width: auto;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.alert-danger, .alert-success{
+    width: 30%;
+    text-align: center;
+    height: 50px;
+    font-size: 5mm;
+    font-weight: bold;
+}
+.card-body > .card-text{
+    text-align: center;
+    font-size: 10mm;
+}
+
+.quiz--component__question > span{
+    font-weight: bold;
+}
+.component--button__wrapped{
+    display: flex;
+    justify-content: space-between;
+}
